@@ -2,16 +2,17 @@ from pydantic import BaseModel, Field
 from typing import Dict, Optional
 
 class MessageInput(BaseModel):
-    sessionId: Optional[str] = Field(None, alias="session_id")
+    sessionId: Optional[str] = None
     message: str
 
     class Config:
         populate_by_name = True
+        extra = "allow" # Be permissive
 
 class AIResponse(BaseModel):
-    sessionId: str = Field(..., alias="session_id")
+    sessionId: str
     reply: str
-    extractedIntelligence: Dict = Field(..., alias="extracted_intelligence")
+    extractedIntelligence: Dict
 
     class Config:
         populate_by_name = True
