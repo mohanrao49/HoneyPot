@@ -101,7 +101,11 @@ def generate_reply(history, message, forbidden_replies=None):
                 timeout=10
             )
             if r.status_code != 200:
-                print(f"DEBUG: Groq API Error {r.status_code}: {r.text}")
+                error_msg = f"Groq API Error {r.status_code}: {r.text}"
+                print(f"ERROR: {error_msg}")
+                # Log to stderr for better visibility in Render logs
+                import sys
+                print(error_msg, file=sys.stderr)
                 continue
 
             reply = r.json()["choices"][0]["message"]["content"]
@@ -111,7 +115,10 @@ def generate_reply(history, message, forbidden_replies=None):
                 return reply
 
         except Exception as e:
-            print(f"DEBUG: Request failed: {e}")
+            error_msg = f"Request failed: {str(e)}"
+            print(f"ERROR: {error_msg}")
+            import sys
+            print(error_msg, file=sys.stderr)
             continue
 
     # If all attempts fail or are duplicates, pick an intent-based fallback
