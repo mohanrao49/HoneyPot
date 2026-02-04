@@ -1,0 +1,172 @@
+{
+  "test-sid": [
+    {
+      "role": "user",
+      "content": "test"
+    }
+  ],
+  "6e497926-6bff-4183-b7bd-b017a5094526": [
+    {
+      "role": "user",
+      "content": "Your bank account is blocked. Send money via UPI immediately."
+    },
+    {
+      "role": "assistant",
+      "content": "uh\u2026 i\u2019m not sure."
+    }
+  ],
+  "959d280f-d904-415b-b9e0-ccf87f074617": [
+    {
+      "role": "user",
+      "content": "Your bank account is blocked. Send money via UPI immediately."
+    },
+    {
+      "role": "assistant",
+      "content": "Which app is this about?"
+    }
+  ],
+  "500fbb96-2e75-4bc1-a23c-64e5afc0f585": [
+    {
+      "role": "user",
+      "content": "Your bank account is blocked. Send money via UPI immediately."
+    },
+    {
+      "role": "assistant",
+      "content": "sorry, i was just looking for my phone. what did you say?"
+    },
+    {
+      "role": "user",
+      "content": "This is your SBI account. Send \u20b95000 to abc@upi now."
+    },
+    {
+      "role": "assistant",
+      "content": "sorry, i was just looking for my phone. wat did you say?"
+    },
+    {
+      "role": "user",
+      "content": "This is your SBI account. Send \u20b95000 to abc@upi now."
+    },
+    {
+      "role": "assistant",
+      "content": "can you help me? i dont know where to click"
+    },
+    {
+      "role": "user",
+      "content": "If you don\u2019t act now, your account will be frozen permanently."
+    },
+    {
+      "role": "assistant",
+      "content": "uhh... what was that? i'm a bit lost"
+    },
+    {
+      "role": "user",
+      "content": "If you have doubts, call this number immediately: 9876543210"
+    },
+    {
+      "role": "assistant",
+      "content": "wait, which bank did you say you were from again?"
+    },
+    {
+      "role": "user",
+      "content": "Verify your account now at https://secure-sbi-check.com"
+    },
+    {
+      "role": "assistant",
+      "content": "sorry, i was just looking for my phone. what did you say?"
+    },
+    {
+      "role": "user",
+      "content": "This is your final warning. Act now or lose access permanently."
+    },
+    {
+      "role": "assistant",
+      "content": "sorry, i was just looking for my phone. what did you say?"
+    },
+    {
+      "role": "user",
+      "content": "This is your final warning. Act now or lose access permanently."
+    },
+    {
+      "role": "assistant",
+      "content": "sorry, i was just looking for my phone. what did you say?"
+    }
+  ],
+  "a2321091-12e4-42bf-bd1b-ca84d0ce7290": [
+    {
+      "role": "user",
+      "content": "Your bank account is blocked. Send money via UPI immediately."
+    },
+    {
+      "role": "assistant",
+      "content": "wait, which bank did you say you were from again"
+    },
+    {
+      "role": "user",
+      "content": "This is your SBI account. Send \u20b95000 to abc@upi now."
+    },
+    {
+      "role": "assistant",
+      "content": "sorry, i was just looking for my phone. what did you say?"
+    }
+  ],
+  "50a86209-5c84-42f6-9dfa-d07731a2f241": [
+    {
+      "role": "user",
+      "content": "Your bank account is blocked. Send money via UPI immediately."
+    },
+    {
+      "role": "assistant",
+      "content": "is someone there? i can't see who's talking.."
+    }
+  ],
+  "b7e221b8-a77a-4baf-a64b-18d15323e608": [
+    {
+      "role": "user",
+      "content": "Your bank account is blocked. Send money via UPI immediately."
+    },
+    {
+      "role": "assistant",
+      "content": "oh... sorry, what was that? i'm a bit lost with this thing"
+    },
+    {
+      "role": "user",
+      "content": "This is your SBI account. Send \u20b95000 to abc@upi now."
+    },
+    {
+      "role": "assistant",
+      "content": "everything is so confusing on these screens... i don't know where to click on here"
+    },
+    {
+      "role": "user",
+      "content": "If you don\u2019t act now, your account will be frozen permanently."
+    },
+    {
+      "role": "assistant",
+      "content": "this box keeps popping up... i don't know what to do with it."
+    },
+    {
+      "role": "user",
+      "content": "If you have doubts, call this number immediately: 9876543210"
+    },
+    {
+      "role": "assistant",
+      "content": "oh dear, it's all gobbledygook to me. what was it you needed?"
+    },
+    {
+      "role": "user",
+      "content": "Verify your account now at https://secure-sbi-check.com"
+    },
+    {
+      "role": "assistant",
+      "content": "um... i'm not very good at this... can you say that again"
+    },
+    {
+      "role": "user",
+      "content": "This is your final warning. Act now or lose access permanently"
+    },
+    {
+      "role": "assistant",
+      "content": "wait... let me find my magnifying glass... okay, now what was it"
+    }
+  ]
+}

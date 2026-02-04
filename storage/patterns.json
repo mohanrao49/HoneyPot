@@ -1,0 +1,69 @@
+{
+  "test-sid": [
+    {
+      "score": 0.5
+    }
+  ],
+  "6e497926-6bff-4183-b7bd-b017a5094526": [
+    {
+      "turn": 0,
+      "message": "Your bank account is blocked. Send money via UPI immediately.",
+      "score": 0.2
+    }
+  ],
+  "959d280f-d904-415b-b9e0-ccf87f074617": [
+    {
+      "turn": 0,
+      "message": "Your bank account is blocked. Send money via UPI immediately.",
+      "score": 0.2
+    }
+  ],
+  "500fbb96-2e75-4bc1-a23c-64e5afc0f585": [
+    {
+      "turn": 0,
+      "message": "Your bank account is blocked. Send money via UPI immediately.",
+      "score": 0.2
+    },
+    {
+      "turn": 4,
+      "message": "If you have doubts, call this number immediately: 9876543210",
+      "score": 0.2
+    },
+    {
+      "turn": 5,
+      "message": "Verify your account now at https://secure-sbi-check.com",
+      "score": 0.4
+    }
+  ],
+  "a2321091-12e4-42bf-bd1b-ca84d0ce7290": [
+    {
+      "turn": 0,
+      "message": "Your bank account is blocked. Send money via UPI immediately.",
+      "score": 0.2
+    }
+  ],
+  "50a86209-5c84-42f6-9dfa-d07731a2f241": [
+    {
+      "turn": 0,
+      "message": "Your bank account is blocked. Send money via UPI immediately.",
+      "score": 0.2
+    }
+  ],
+  "b7e221b8-a77a-4baf-a64b-18d15323e608": [
+    {
+      "turn": 0,
+      "message": "Your bank account is blocked. Send money via UPI immediately.",
+      "score": 0.2
+    },
+    {
+      "turn": 3,
+      "message": "If you have doubts, call this number immediately: 9876543210",
+      "score": 0.2
+    },
+    {
+      "turn": 4,
+      "message": "Verify your account now at https://secure-sbi-check.com",
+      "score": 0.4
+    }
+  ]
+}
