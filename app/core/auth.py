@@ -5,9 +5,12 @@ from app.core.config import APP_API_KEY
 api_key_header = APIKeyHeader(name="X-API-KEY", auto_error=False)
 
 def get_api_key(api_key: str = Security(api_key_header)):
-    # Fallback to hackathon key if APP_API_KEY is not set
-    target_key = APP_API_KEY or "scam-honeypot-hackathon-2026"
-    if api_key == target_key:
+    # Accept either the configured APP_API_KEY or the hackathon default key
+    valid_keys = ["scam-honeypot-hackathon-2026"]
+    if APP_API_KEY:
+        valid_keys.append(APP_API_KEY)
+    
+    if api_key in valid_keys:
         return api_key
     raise HTTPException(
         status_code=status.HTTP_403_FORBIDDEN,
