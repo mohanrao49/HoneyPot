@@ -25,6 +25,6 @@ def health_check():
         "environment": os.getenv("RENDER", "local")
     }
 
-@app.post("/ai/message", response_model=AIResponse, dependencies=[Depends(get_api_key)])
-def ai_message(input: MessageInput):
+@app.post("/analyze", response_model=AIResponse, dependencies=[Depends(get_api_key)])
+def analyze(input: MessageInput):
     return process_message(input)
